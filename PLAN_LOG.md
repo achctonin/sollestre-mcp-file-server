@@ -18,4 +18,8 @@ New entries go directly above the END marker.
 - plan: Stage 3: logger.ts (JSONL), server.ts (Streamable HTTP, /mcp/planner + /mcp/builder, per-role sessions). Stage 4: ecosystem.config.js (server + cloudflared)
 - result: 20 tests pass; server.ts typechecks except for modules not installable offline (express, MCP SDK, zod-to-json-schema) - NOT run end to end yet
 
+### 2026-10-13T10:33:36Z | build-agent
+- plan: Stage 5: templates, AGENTS.md, README, REPORT, DEMO, INSPECTOR checklist, transcript placeholder; template marker test
+- result: 22 tests pass. Not done (needs you): npm install + run server, Inspector, real client, transcript, demo
+
 <!-- END -->

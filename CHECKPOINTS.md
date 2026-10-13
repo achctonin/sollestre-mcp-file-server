@@ -16,4 +16,9 @@ Entry format: `### <ID>` then timestamp, what is complete, git commit hash.
 - complete: 8 tools with strict schemas, roles + planner write scope, 18 passing tests
 - commit: 541ac4a
 
+### CP-3
+- timestamp: 2026-10-13T10:32:19Z
+- complete: logger, Streamable HTTP server with two role endpoints, ecosystem.config.js
+- commit: f43cb59
+
 <!-- END -->

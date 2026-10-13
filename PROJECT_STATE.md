@@ -1,11 +1,11 @@
 # PROJECT_STATE (build)
 - Goal: MCP file-server connector per the Midterms Pt 1 brief.
-- Status: stages 3-4 done; docs next
+- Status: code and docs complete; live verification pending (needs network)
 ## Done
-- logger.ts, server.ts, ecosystem.config.js; 20 passing tests
+- All stages 0-5; 22 unit tests pass
 ## Next
-- Stage 5: templates, AGENTS.md, README, REPORT, DEMO, INSPECTOR checklist, transcript placeholder
+- npm install, npm run build, npm start; Inspector run; real client run; export transcript; record demo
 ## Open questions
-- server.ts could not be run offline (needs npm install); verify first with npm install && npm run build && npm start
+- server.ts (HTTP/SDK layer) has not been executed yet
 ## Last updated
 - by: build-agent
