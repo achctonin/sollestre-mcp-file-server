@@ -11,4 +11,9 @@ Entry format: `### <ID>` then timestamp, what is complete, git commit hash.
 - complete: sandbox.ts resolveSafePath + 9 passing tests
 - commit: 6d488db
 
+### CP-2
+- timestamp: 2026-10-13T10:31:38Z
+- complete: 8 tools with strict schemas, roles + planner write scope, 18 passing tests
+- commit: 541ac4a
+
 <!-- END -->

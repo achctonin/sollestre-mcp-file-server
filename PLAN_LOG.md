@@ -14,4 +14,8 @@ New entries go directly above the END marker.
 - plan: Stage 2: eight tools (strict zod, isError text, caps), roles.ts + config/roles.json, executeTool with planner write scope; error-path tests for every tool
 - result: 18/18 tests pass
 
+### 2026-10-13T10:32:19Z | build-agent
+- plan: Stage 3: logger.ts (JSONL), server.ts (Streamable HTTP, /mcp/planner + /mcp/builder, per-role sessions). Stage 4: ecosystem.config.js (server + cloudflared)
+- result: 20 tests pass; server.ts typechecks except for modules not installable offline (express, MCP SDK, zod-to-json-schema) - NOT run end to end yet
+
 <!-- END -->

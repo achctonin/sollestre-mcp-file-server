@@ -1,11 +1,11 @@
 # PROJECT_STATE (build)
 - Goal: MCP file-server connector per the Midterms Pt 1 brief.
-- Status: stage 2 done (tools + roles + tests, 18 passing)
+- Status: stages 3-4 done; docs next
 ## Done
-- sandbox, 8 tools, roles.ts, config/roles.json, executeTool
+- logger.ts, server.ts, ecosystem.config.js; 20 passing tests
 ## Next
-- Stage 3: logger.ts + server.ts (Streamable HTTP, /mcp/planner and /mcp/builder)
+- Stage 5: templates, AGENTS.md, README, REPORT, DEMO, INSPECTOR checklist, transcript placeholder
 ## Open questions
-- None
+- server.ts could not be run offline (needs npm install); verify first with npm install && npm run build && npm start
 ## Last updated
 - by: build-agent
