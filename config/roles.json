@@ -1,0 +1,14 @@
+{
+  "planner": {
+    "description": "Read-only planning role. May write only the four handoff files.",
+    "tools": ["list_dir", "read_file", "search_text", "git_status", "write_file", "str_replace"],
+    "writeScope": {
+      "tools": ["write_file", "str_replace"],
+      "files": ["PROJECT_STATE.md", "PLAN_LOG.md", "CHECKPOINTS.md", "DECISIONS.md"]
+    }
+  },
+  "builder": {
+    "description": "Implementation role. All eight tools; delete_file still needs confirm=\"DELETE\".",
+    "tools": ["list_dir", "read_file", "write_file", "str_replace", "delete_file", "search_text", "git_status", "git_commit"]
+  }
+}

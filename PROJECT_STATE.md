@@ -1,10 +1,10 @@
 # PROJECT_STATE (build)
 - Goal: MCP file-server connector per the Midterms Pt 1 brief.
-- Status: stage 1 done (sandbox + tests passing)
+- Status: stage 2 done (tools + roles + tests, 18 passing)
 ## Done
-- Scaffold, DECISIONS.md, src/sandbox.ts, test/sandbox.test.ts (9 pass)
+- sandbox, 8 tools, roles.ts, config/roles.json, executeTool
 ## Next
-- Stage 2: eight tools + error-path tests
+- Stage 3: logger.ts + server.ts (Streamable HTTP, /mcp/planner and /mcp/builder)
 ## Open questions
 - None
 ## Last updated

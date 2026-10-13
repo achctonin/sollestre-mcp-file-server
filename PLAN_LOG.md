@@ -10,4 +10,8 @@ New entries go directly above the END marker.
 - plan: Stage 1: sandbox.ts resolveSafePath (abs, null byte, ../, realpath, nearest-parent, dangling symlink, .git write block) + 9 tests
 - result: 9/9 tests pass
 
+### 2026-10-13T10:31:38Z | build-agent
+- plan: Stage 2: eight tools (strict zod, isError text, caps), roles.ts + config/roles.json, executeTool with planner write scope; error-path tests for every tool
+- result: 18/18 tests pass
+
 <!-- END -->
