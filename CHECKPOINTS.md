@@ -21,4 +21,9 @@ Entry format: `### <ID>` then timestamp, what is complete, git commit hash.
 - complete: logger, Streamable HTTP server with two role endpoints, ecosystem.config.js
 - commit: f43cb59
 
+### CP-4
+- timestamp: 2026-10-13T10:33:36Z
+- complete: README, REPORT, DEMO, INSPECTOR checklist, AGENTS.md, templates, transcript placeholder
+- commit: 0f737d5
+
 <!-- END -->
