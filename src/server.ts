@@ -6,6 +6,7 @@ import type { Request, Response } from 'express';
 import { Server } from '@modelcontextprotocol/sdk/server/index.js';
 import { StreamableHTTPServerTransport } from '@modelcontextprotocol/sdk/server/streamableHttp.js';
 import { CallToolRequestSchema, ListToolsRequestSchema, isInitializeRequest } from '@modelcontextprotocol/sdk/types.js';
+import type { CallToolResult } from '@modelcontextprotocol/sdk/types.js';
 import { zodToJsonSchema } from 'zod-to-json-schema';
 import { initWorkspace } from './sandbox';
 import { roleNames, getRole } from './roles';
@@ -40,7 +41,7 @@ export function createMcpServer(role: string, getSessionId: () => string | undef
       error: result.isError ? result.content[0]?.text : undefined,
       duration_ms: Date.now() - started,
     });
-    return result;
+    return result as CallToolResult;
   });
 
   return server;
